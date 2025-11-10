@@ -11,7 +11,7 @@ function Head() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
 
-  // Function to handle smooth scrolling to sections
+ 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {

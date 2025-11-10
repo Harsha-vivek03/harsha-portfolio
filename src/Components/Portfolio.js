@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import for routing
 import issue1 from "../assets/img/issue1.png";
@@ -69,7 +68,7 @@ const Portfolio = () => {
       category: "filter-branding",
       imgSrc: library,
       title: "E-Library",
-      description: "Built a front-end for E-Library using basic HTML and CSS.",
+      description: "Built a simple static front-end for E-Library using basic HTML and CSS.",
       github: null,
       detailsRoute: "/projects/E-library",
     },
@@ -82,7 +81,7 @@ const Portfolio = () => {
         {/* Section Title */}
         <div className="container section-title" data-aos="fade-up">
           <h2>Portfolio</h2>
-          <p>Explore My Projects: A glimpse into my work as a softeware engineer, combining creativity and functionality.</p>
+          <p>Explore My Projects: A glimpse into my work as a developer, combining creativity and functionality.</p>
         </div>
 
         <div className="container">

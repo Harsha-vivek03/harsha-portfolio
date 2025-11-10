@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Resume.css';
-
 import { Modal, Box, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import Carousel from 'react-material-ui-carousel';

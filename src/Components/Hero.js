@@ -10,11 +10,6 @@ import Contact from './Contact';
 import Header from './Header';
 import harsha1 from '../assets/img/harsha2.jpg';
 
-import React from "react";
-
-
-
-
 const Hero = () => {
   const [activeSection, setActiveSection] = useState('');
   const phoneNumber = "+919550617522"; 
@@ -27,6 +22,7 @@ const Hero = () => {
       setActiveSection(id);
     }
   };
+  console.log(activeSection);
 
   const particlesInit = async (main) => {
     // Load tsparticles package
@@ -529,7 +525,6 @@ const Hero = () => {
       <section id="contact">
         <Contact />
       </section>
-
       <div >
       <a
         href={whatsAppLink}

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Footer.css';
 
 function Footer() {
@@ -20,7 +20,7 @@ function Footer() {
             </div>
           </div>
         </div>
-          <p>Designed & Developed by <a href="#">Harsha</a></p>
+          <p>Designed & Developed by <a href="/">Harsha</a></p>
         </div>
       </div>
     </footer>

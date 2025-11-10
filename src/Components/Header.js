@@ -42,7 +42,7 @@ function Header() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initialize on mount
+    handleScroll(); 
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -51,7 +51,6 @@ function Header() {
     closeMenu();
   }, [location]);
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = 'hidden';
