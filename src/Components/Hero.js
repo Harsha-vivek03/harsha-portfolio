@@ -8,7 +8,7 @@ import Resume from './Resume';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Header from './Header';
-import harsha1 from '../assets/img/resume_pic.png';
+import harsha1 from '../assets/img/harsha2.jpg';
 
 import React from "react";
 
@@ -37,7 +37,7 @@ const Hero = () => {
     "autoPlay": true,
     "background": {
       "color": {
-        "value": "#fff"
+        "value": "#f2f7f6ff"
       },
       "image": "",
       "position": "",
@@ -523,6 +523,7 @@ const Hero = () => {
 
       <section id="portfolio">
         <Portfolio />
+      
       </section>
 
       <section id="contact">
@@ -545,7 +546,7 @@ const Hero = () => {
         className="whatsapp"
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
           alt="WhatsApp"
-          style={{ width: "54px", height: "54px", marginRight: "8px" }}
+          style={{ width: "60px", height: "60px", marginRight: "8px" }}
         />
       </a>
     </div>

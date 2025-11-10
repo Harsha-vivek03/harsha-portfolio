@@ -3,9 +3,11 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import for routing
 import issue1 from "../assets/img/issue1.png";
 import library from "../assets/img/library.png";
-import portfolio from "../assets/img/portfolio.png";
+
 import resucraft from "../assets/img/resucraft.png";
-import jntugv from "../assets/img/jntugv-website.png";
+import jntugv from "../assets/img/jntugv-hero.png";
+import auto1 from "../assets/img/auto1.png"
+
 import './Portfolio.css'; // Import the CSS file for styling
 
 const Portfolio = () => {
@@ -26,6 +28,15 @@ const Portfolio = () => {
       github: "https://github.com/Jntu-Gurajada-Vizianagaram/JNTU-GV",
       detailsRoute: "/projects/jntugv-website",
     },
+     {
+      id: 6,
+      category: "filter-app",
+      imgSrc: auto1,
+      title: "AutoTrack - Vehicle Maintenance",
+      description: "A Java full-stack, RESTful vehicle maintenance tracking system.",
+      github: "https://github.com/Harsha-vivek03/AutoTrack",
+      detailsRoute: "/projects/autotrack",
+    },
     {
       id: 2,
       category: "filter-product",
@@ -44,15 +55,15 @@ const Portfolio = () => {
       github: "https://github.com/Harsha-vivek03/ResuCraft",
       detailsRoute: "/projects/resucraft",
     },
-    {
-      id: 4,
-      category: "filter-branding",
-      imgSrc: portfolio,
-      title: "Personal Portfolio",
-      description: "My personal portfolio built with ReactJS, fully responsive.",
-      github: "https://github.com/Harsha-vivek03/personalportfolio",
-      detailsRoute: "/projects/portfolio",
-    },
+    // {
+    //   id: 4,
+    //   category: "filter-branding",
+    //   imgSrc: portfolio,
+    //   title: "Personal Portfolio",
+    //   description: "My personal portfolio built with ReactJS, fully responsive.",
+    //   github: "https://github.com/Harsha-vivek03/personalportfolio",
+    //   detailsRoute: "/projects/portfolio",
+    // },
     {
       id: 5,
       category: "filter-branding",
@@ -79,8 +90,8 @@ const Portfolio = () => {
             <ul className="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
               <li data-filter="*" className="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Card</li>
               <li data-filter=".filter-branding">Web</li>
+               <li data-filter=".filter-product">Static</li>
             </ul>
 
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">

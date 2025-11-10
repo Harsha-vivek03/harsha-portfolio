@@ -5,14 +5,16 @@ import './About.css';
 const About = () => {
   // Dynamic skills array
   const skills = [
-    { name: 'Python', level: '80%', color: '#41B3A2' },
-    { name: 'Java', level: '60%', color: '#FF8A8A' },
+  
+    { name: 'Java', level: '80%', color: '#FF8A8A' },
+    { name: 'SpringBoot', level: '70%', color: '#264de4' },
+    { name: 'React', level: '70%', color: '#61dafb' },
     { name: 'HTML', level: '90%', color: '#e44d26' },
+    { name: 'Python', level: '60%', color: '#41B3A2' },
     { name: 'CSS', level: '85%', color: '#264de4' },
     { name: 'JavaScript', level: '75%', color: '#f7df1e' },
-    { name: 'React', level: '70%', color: '#61dafb' },
     { name: 'Node', level: '40%', color: '#e44d26' },
-    { name: 'Sql', level: '70%', color: '#264de4' },
+    { name: 'Sql', level: '85%', color: '#41B3A2' },
 
   ];
 

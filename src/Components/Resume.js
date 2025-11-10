@@ -17,7 +17,7 @@ import ibmfed from "../assets/img/ibm-fed.png";
 import workshop from "../assets/img/workshop.jpg";
 import { Button } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
-import resume from "../assets/Harsha_Vivek_SDE.pdf"
+import resume from "../assets/HarshaVivek_JavaFullStack_Resume.pdf"
 const certificationsData = [
   {
     name: "Professional Front-End Developer",
@@ -103,7 +103,7 @@ const ResumeDownload = () => {
   return (
     <Button
       href={resume}
-      download="Harsha_Vivek_SDE.pdf"
+      download="HarshaVivek_JavaFullStack_Resume.pdf"
       variant="contained"
       color="primary"
       startIcon={<DownloadIcon />}
@@ -149,12 +149,21 @@ const Resume = () => {
              
              
 
-
-
+            
+            <div className="resume-item">
+  <h4>Full Stack Java Trainee</h4>
+  <h5>2025 (Ongoing)</h5>
+  <p><em>Revature</em></p>
+  <p>
+    Currently undergoing a 6-month intensive Full Stack Java training program at Revature.  
+    Over the past 4 months, I’ve gained strong hands-on experience in Core Java, Spring, Spring Boot, RESTful APIs, and software development lifecycle best practices.  
+    The upcoming modules focus on modern front-end frameworks and DevOps tools to strengthen full-stack capabilities.
+  </p>
+</div>
 
             <div className="resume-item">
-              <h4>Front End Web Developer Intern</h4>
-              <h5>2023- Present</h5>
+              <h4>Front End Developer Intern</h4>
+              <h5>2024- 2025</h5>
               <p><em>JNTUGV College</em></p>
               <p>Led the design and deployment of a responsive JNTUGV website using HTML5, CSS3, JavaScript, Material-UI, and React.js. Ensured a seamless user experience with 99% uptime and real-time updates, earning positive feedback from over 2,000 users.</p>
             </div>
@@ -165,37 +174,27 @@ const Resume = () => {
     <p><em>Infosys Springboard</em></p>
     <p>This was a 3-month project-based virtual internship where I developed full-stack applications using Java technologies. The experience enhanced my skills in both front-end and back-end development while collaborating on team projects.</p>
 </div>
-            <div className="resume-item">
-              <h4>Web Development Intern</h4>
-              <h5>2024</h5>
-              <p><em>Brain O Vision</em></p>
-              <p>During my 2-month internship at Brain O Vision, I gained valuable experience in responsive web design and various web development tools, including Canvas, Bootstrap, and WordPress. I also completed daily assessments that helped solidify my understanding and skills.</p>
-            </div>
-            <div className="resume-item">
-              <h4>Front End Development Intern</h4>
-              <h5>2023</h5>
-              <p><em>IBM</em></p>
-              <p>During my 6 weeks IBM internship, I learned React.js and Bootstrap, and gained insights into collaborative practices.</p>
-            </div>
+           
+          
           </div>
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>Bachelor's Degree in Information Technology</h4>
+              <h4>Bachelor's Degree in IT - 7.8 CGPA</h4>
               <h5>2021 - 2025</h5>
               <p><em>JNTUGV College of Engineering, Vizianagaram</em></p>
-              <p>Pursuing a comprehensive program focusing on core IT subjects, including programming, web development, data structures, and algorithms.</p>
+              <p>Pursuing a comprehensive program focusing on core Information Technology subjects, including programming, web development, data structures, and algorithms.</p>
             </div>
             <div className="resume-item">
-              <h4>Intermediate in MPC</h4>
+              <h4>Intermediate in MPC - 97%</h4>
               <h5>2019 - 2021</h5>
               <p><em>Narayana Junior College, Rajahmundry</em></p>
               <p>Completed an intensive curriculum in Mathematics, Physics, and Chemistry, building a strong foundation in analytical and problem-solving skills.</p>
             </div>
             <div className="resume-item">
-              <h4>High School (SSC)</h4>
-              <h5>2019</h5>
-              <p><em>Nagaraja Municipal High School, Rajahmundry</em></p>
+              <h4>High School (SSC) - 10 CGPA</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>Nagaraja Government High School, Rajahmundry</em></p>
               <p>Achieved a solid academic foundation with a focus on science and mathematics, setting the stage for further studies in engineering.</p>
             </div>
           </div>

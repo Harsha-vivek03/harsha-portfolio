@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './PortfolioDetailsHeader.css'; // Use the provided styles here
 
-import jntugv1 from "../assets/img/jntugv1.png"
+import jntugv1 from "../assets/img/jntugv-hero.png"
 import jntugv2 from "../assets/img/jntugv2.png"
 import jntugv3 from "../assets/img/jntugv3.png"
  
@@ -20,9 +20,13 @@ import resucraft1 from "../assets/img/resucraft.png"
 import resucraft2 from "../assets/img/resucraft4.png"
 import resucraft3 from "../assets/img/resucraft3.png"
 
-import portfolio1 from "../assets/img/portfolio.png"
-import portfolio2 from "../assets/img/portfolio2.png"
-import portfolio3 from "../assets/img/portfolio3.png"
+// import portfolio1 from "../assets/img/portfolio.png"
+// import portfolio2 from "../assets/img/portfolio2.png"
+// import portfolio3 from "../assets/img/portfolio3.png"
+ 
+import auto1 from "../assets/img/auto1.png"
+import auto2 from "../assets/img/auto2.png"
+import auto3 from "../assets/img/auto3.png"
 
 
 import library1 from "../assets/img/library1.png"
@@ -47,6 +51,21 @@ const projectData = {
       images: [jntugv1, jntugv2, jntugv3], // Replace with actual paths
       liveLink: "https://jntugv.edu.in",
     },
+    "autotrack": {
+  title: "AutoTrack - Vehicle Maintenance System",
+  description: `AutoTrack is a Java full-stack vehicle maintenance tracking system, developed as a microservice within the CarCaddy project during my Infosys Springboard internship. 
+  The system is designed to streamline vehicle service management, providing users with features like registration, maintenance tracking, and service history visibility.`,
+  features: [
+    "Built with a RESTful microservices architecture ensuring modularity and scalability.",
+    "Allows efficient vehicle registration, progress tracking, and service status management.",
+    "Provides clear visibility of service history and expected delivery timelines.",
+    "Integrated backend with MySQL and Spring Boot, and frontend with ReactJS for seamless user experience."
+  ],
+  techStack: ["Java", "Spring Boot", "ReactJS", "MySQL"],
+  images: [auto1, auto2, auto3], // Replace with actual image imports/paths
+  liveLink: "https://autrotrack-deployment.netlify.app",
+},
+
     "issue-tracking-system": {
       title: "Issue Tracking System",
       description: `The Issue Tracking System is a full-stack Java web application designed to streamline the process of logging, managing, 
@@ -75,20 +94,20 @@ const projectData = {
       images: [resucraft1, resucraft3, resucraft2], // Replace with actual paths
       liveLink: "https://resucraft.vercel.app",
     },
-    "portfolio": {
-      title: "Portfolio",
-      description: `  An interactive and visually appealing portfolio website created to showcase my skills, projects, and professional experiences as a front-end developer. 
-      This portfolio acts as a digital resume and networking tool for potential employers and collaborators.
-`,
-      features: [
-        "Visually appealing and responsive layout.",
-        "Sections for skills, projects, and contact information.",
-        "Optimized for performance and accessibility."
-      ],
-      techStack: ["ReactJS", "Material-UI", "HTML5", "CSS3"],
-      images: [portfolio1, portfolio2, portfolio3], // Replace with actual paths
-      liveLink: "https://harsha-vivek03.github.io/personalportfolio",
-    },
+//     "portfolio": {
+//       title: "Portfolio",
+//       description: `  An interactive and visually appealing portfolio website created to showcase my skills, projects, and professional experiences as a front-end developer. 
+//       This portfolio acts as a digital resume and networking tool for potential employers and collaborators.
+// `,
+//       features: [
+//         "Visually appealing and responsive layout.",
+//         "Sections for skills, projects, and contact information.",
+//         "Optimized for performance and accessibility."
+//       ],
+//       techStack: ["ReactJS", "Material-UI", "HTML5", "CSS3"],
+//       images: [portfolio1, portfolio2, portfolio3], // Replace with actual paths
+//       liveLink: "https://harsha-vivek03.github.io/personalportfolio",
+//     },
     "E-library": {
       title: "E-Library",
       description: `The E-Library project is a sample front-end application developed to simulate the management of library books. 
@@ -121,7 +140,7 @@ function PortfolioDetailsHeader() {
     <header className="header1 header d-flex align-items-center sticky-top justify-content-around">
       <div className="container-fluid d-flex align-items-center justify-content-between ">
         <Link to="/" className="logo" onClick={closeMenu}>
-          <h1 className="sitenames">Harsha</h1>
+          <h1 className="sitenames">Harsha...</h1>
         </Link>
         <nav className={`navmenu ${menuOpen ? 'open' : ''}`}>
           <ul>
